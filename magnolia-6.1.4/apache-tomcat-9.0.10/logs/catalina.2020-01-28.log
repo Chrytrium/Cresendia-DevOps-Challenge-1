@@ -628,3 +628,66 @@
 28-Jan-2020 22:34:23.839 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 28-Jan-2020 22:34:23.841 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 28-Jan-2020 22:34:23.843 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 23:11:57.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+28-Jan-2020 23:11:57.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+28-Jan-2020 23:11:57.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+28-Jan-2020 23:11:57.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Jan-2020 23:11:57.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Jan-2020 23:11:57.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2020 23:11:57.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-13.0.2
+28-Jan-2020 23:11:57.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+28-Jan-2020 23:11:57.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2020 23:11:57.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 23:11:57.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 23:11:57.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jan-2020 23:11:57.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jan-2020 23:11:57.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jan-2020 23:11:57.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\conf\logging.properties
+28-Jan-2020 23:11:57.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2020 23:11:57.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2020 23:11:57.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2020 23:11:57.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+28-Jan-2020 23:11:57.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+28-Jan-2020 23:11:57.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Jan-2020 23:11:57.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2020 23:11:57.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 23:11:57.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 23:11:57.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\temp
+28-Jan-2020 23:11:57.754 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Chrytrium\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\Chrytrium\AppData\Roaming\npm;C:\Users\Chrytrium\AppData\Local\GitHubDesktop\bin;.]
+28-Jan-2020 23:11:57.835 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 23:11:58.363 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jan-2020 23:11:58.370 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 23:11:58.373 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jan-2020 23:11:58.374 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1490 ms
+28-Jan-2020 23:11:58.422 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2020 23:11:58.423 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+28-Jan-2020 23:11:58.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaAuthor]
+28-Jan-2020 23:13:37.130 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [668] milliseconds.
+28-Jan-2020 23:13:40.995 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaAuthor] has finished in [102,553] ms
+28-Jan-2020 23:13:40.995 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaPublic]
+28-Jan-2020 23:15:10.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaPublic] has finished in [89,985] ms
+28-Jan-2020 23:15:10.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\ROOT]
+28-Jan-2020 23:15:11.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\ROOT] has finished in [50] ms
+28-Jan-2020 23:15:11.039 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 23:15:11.056 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 23:15:11.060 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 192685 ms
+28-Jan-2020 23:18:13.361 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Jan-2020 23:18:13.365 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 23:18:13.613 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 23:18:13.805 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2020 23:18:22.828 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaAuthor] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2020 23:18:22.830 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1057)
+ java.base@13.0.2/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 23:18:32.890 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaPublic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2020 23:18:32.891 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1057)
+ java.base@13.0.2/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 23:18:32.918 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 23:18:32.921 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 23:18:32.924 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 23:18:32.925 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
