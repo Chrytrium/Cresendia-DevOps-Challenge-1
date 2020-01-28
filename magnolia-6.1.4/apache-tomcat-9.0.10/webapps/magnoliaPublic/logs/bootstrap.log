@@ -1,0 +1,23 @@
+INFO  28.01.2020 18:36:35  Trying to initialize repositories from: 
+    D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaPublic\WEB-INF\bootstrap\public
+    D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaPublic\WEB-INF\bootstrap\common
+INFO  28.01.2020 18:36:35  Repository [dam] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [keystore] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [contacts] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [usergroups] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [magnolia-mgnlSystem] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [scripts] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [tours] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [website] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [magnolia-mgnlVersion] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [userroles] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [profiles] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [users] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [tasks] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [imaging] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [category] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [rss] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [default] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [resources] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [messages] has been initialized.
+INFO  28.01.2020 18:36:35  Repository [config] has been initialized.

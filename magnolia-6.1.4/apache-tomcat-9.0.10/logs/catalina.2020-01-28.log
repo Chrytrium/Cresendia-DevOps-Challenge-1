@@ -1,0 +1,630 @@
+28-Jan-2020 18:30:33.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+28-Jan-2020 18:30:33.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+28-Jan-2020 18:30:34.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+28-Jan-2020 18:30:34.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Jan-2020 18:30:34.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Jan-2020 18:30:34.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2020 18:30:34.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-13.0.2
+28-Jan-2020 18:30:34.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+28-Jan-2020 18:30:34.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2020 18:30:34.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 18:30:34.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 18:30:34.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jan-2020 18:30:34.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jan-2020 18:30:34.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jan-2020 18:30:34.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\conf\logging.properties
+28-Jan-2020 18:30:34.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2020 18:30:34.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2020 18:30:34.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2020 18:30:34.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+28-Jan-2020 18:30:34.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+28-Jan-2020 18:30:34.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Jan-2020 18:30:34.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2020 18:30:34.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 18:30:34.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 18:30:34.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\temp
+28-Jan-2020 18:30:34.035 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Chrytrium\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\Chrytrium\AppData\Roaming\npm;C:\Users\Chrytrium\AppData\Local\GitHubDesktop\bin;.]
+28-Jan-2020 18:30:34.105 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 18:30:34.524 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jan-2020 18:30:34.542 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 18:30:34.545 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jan-2020 18:30:34.547 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1249 ms
+28-Jan-2020 18:30:34.617 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2020 18:30:34.619 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+28-Jan-2020 18:30:34.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaAuthor]
+28-Jan-2020 18:31:37.544 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [185] milliseconds.
+28-Jan-2020 18:31:37.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaAuthor] has finished in [62,985] ms
+28-Jan-2020 18:31:37.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaPublic]
+28-Jan-2020 18:32:30.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaPublic] has finished in [53,009] ms
+28-Jan-2020 18:32:30.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\ROOT]
+28-Jan-2020 18:32:30.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Chrytrium\Desktop\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\ROOT] has finished in [27] ms
+28-Jan-2020 18:32:30.679 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 18:32:30.688 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 18:32:30.696 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 116148 ms
+28-Jan-2020 18:44:11.187 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Jan-2020 18:44:11.191 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 18:44:11.452 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 18:44:12.161 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2020 18:44:19.321 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaAuthor] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2020 18:44:19.324 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1057)
+ java.base@13.0.2/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.325 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-50] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.327 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-51] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.327 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-52] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.328 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-53] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.329 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-54] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.330 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-55] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.331 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-56] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.332 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-57] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.335 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-58] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.337 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-59] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.338 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Transient File Reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@13.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.apache.jackrabbit.util.TransientFileFactory$ReaperThread.run(TransientFileFactory.java:192)
+28-Jan-2020 18:44:19.339 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-73] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.340 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-88] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.341 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-89] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.341 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-94] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.342 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-95] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.343 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-96] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.347 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-97] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.347 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-98] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.348 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-99] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.349 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-100] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.350 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-101] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.351 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-102] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.351 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-103] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.352 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-104] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.353 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-105] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.353 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-106] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.357 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-107] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.358 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-108] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.358 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-109] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.359 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-110] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.360 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-111] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.361 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-112] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.361 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-113] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.362 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-114] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.364 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-115] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.367 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-116] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.369 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-117] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.369 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-118] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.371 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-119] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.371 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-120] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:19.373 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4fb9f91a]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [info.magnolia.context.SystemRepositoryStrategy@189ff4e8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jan-2020 18:44:19.385 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4fb9f91a]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [info.magnolia.context.SystemRepositoryStrategy@5c7d8a0f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jan-2020 18:44:19.385 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4fb9f91a]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [info.magnolia.context.SystemRepositoryStrategy@496c2214]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jan-2020 18:44:24.703 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaPublic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2020 18:44:24.707 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1057)
+ java.base@13.0.2/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.708 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.709 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.710 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-17] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.711 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-18] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.712 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-19] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.712 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-20] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.713 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-21] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.714 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-22] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.715 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-23] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.718 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Transient File Reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@13.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.apache.jackrabbit.util.TransientFileFactory$ReaperThread.run(TransientFileFactory.java:192)
+28-Jan-2020 18:44:24.719 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-38] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.720 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-131] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.721 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-132] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.722 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-133] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.722 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-134] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.723 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-135] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.724 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-136] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.724 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-137] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.725 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-138] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.726 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-139] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.729 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-140] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.730 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-141] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.731 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-142] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.731 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-143] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.732 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-144] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.732 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-145] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.733 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-146] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.734 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-147] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.735 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-148] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.736 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-149] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.739 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-150] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.740 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-151] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.741 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-152] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.743 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-153] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.744 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-154] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.745 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-155] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.746 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-156] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.750 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-157] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.751 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-158] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.753 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-159] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.753 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-160] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.754 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-161] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.Object.wait(Object.java:326)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 18:44:24.755 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@19308ca3]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [info.magnolia.context.SystemRepositoryStrategy@42214cc0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jan-2020 18:44:24.756 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@19308ca3]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [info.magnolia.context.SystemRepositoryStrategy@6c340874]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jan-2020 18:44:24.757 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@19308ca3]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [info.magnolia.context.SystemRepositoryStrategy@300b06cd]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jan-2020 18:44:24.757 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@19308ca3]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [info.magnolia.context.SystemRepositoryStrategy@2d43d1fb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jan-2020 18:44:24.758 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@19308ca3]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [info.magnolia.context.SystemRepositoryStrategy@654ccfdf]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jan-2020 18:44:24.848 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 18:44:24.856 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 18:44:24.861 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 18:44:24.864 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 22:22:39.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+28-Jan-2020 22:22:39.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+28-Jan-2020 22:22:39.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+28-Jan-2020 22:22:39.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Jan-2020 22:22:39.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Jan-2020 22:22:39.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2020 22:22:39.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-13.0.2
+28-Jan-2020 22:22:39.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+28-Jan-2020 22:22:39.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jan-2020 22:22:39.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 22:22:39.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 22:22:39.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jan-2020 22:22:39.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jan-2020 22:22:39.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jan-2020 22:22:39.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\conf\logging.properties
+28-Jan-2020 22:22:39.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2020 22:22:39.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2020 22:22:39.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2020 22:22:39.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+28-Jan-2020 22:22:39.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+28-Jan-2020 22:22:39.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Jan-2020 22:22:39.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2020 22:22:39.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 22:22:39.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10
+28-Jan-2020 22:22:39.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\temp
+28-Jan-2020 22:22:39.216 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Chrytrium\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\Chrytrium\AppData\Roaming\npm;C:\Users\Chrytrium\AppData\Local\GitHubDesktop\bin;.]
+28-Jan-2020 22:22:39.288 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 22:22:39.757 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jan-2020 22:22:39.766 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 22:22:39.770 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jan-2020 22:22:39.771 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1139 ms
+28-Jan-2020 22:22:39.832 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2020 22:22:39.832 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+28-Jan-2020 22:22:39.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaAuthor]
+28-Jan-2020 22:24:17.576 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [221] milliseconds.
+28-Jan-2020 22:24:20.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaAuthor] has finished in [100,517] ms
+28-Jan-2020 22:24:20.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaPublic]
+28-Jan-2020 22:25:49.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\magnoliaPublic] has finished in [88,628] ms
+28-Jan-2020 22:25:49.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\ROOT]
+28-Jan-2020 22:25:49.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Chrytrium\Documents\Github\Cresendia-DevOps-Challange-1\magnolia-6.1.4\apache-tomcat-9.0.10\webapps\ROOT] has finished in [41] ms
+28-Jan-2020 22:25:49.054 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 22:25:49.064 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 22:25:49.071 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 189299 ms
+28-Jan-2020 22:33:53.109 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Jan-2020 22:34:05.597 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 22:34:05.848 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 22:34:06.101 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jan-2020 22:34:12.324 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaAuthor] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2020 22:34:12.325 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1057)
+ java.base@13.0.2/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 22:34:23.807 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaPublic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jan-2020 22:34:23.808 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [FileSystemWatchService] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus0(Native Method)
+ java.base@13.0.2/sun.nio.fs.WindowsNativeDispatcher.GetQueuedCompletionStatus(WindowsNativeDispatcher.java:1057)
+ java.base@13.0.2/sun.nio.fs.WindowsWatchService$Poller.run(WindowsWatchService.java:587)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+28-Jan-2020 22:34:23.835 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 22:34:23.839 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2020 22:34:23.841 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jan-2020 22:34:23.843 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
